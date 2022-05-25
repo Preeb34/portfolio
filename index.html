@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    .bgimg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('https://preetiportfolio.w3spaces.com/IMG-20220322-WA0167.jpg');
+      min-height: 100%;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small " style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#Project" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Projects</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Preeti Bhattacharya</b></h1>
+    <p>" Engineers Bring Good Things To Life "</p>
+    <img src="https://preetiportfolio.w3spaces.com/preetiBW.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="https://preetiportfolio.w3spaces.com/preetiBW.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <i class="fa fa-download"></i> 
+	  <a href="./Preeti_Bhattacharya_Resume_Full_Time.pdf" download="Preeti_Bhattacharya_Resume">
+          Download Resume 
+	  </a>
+    </button>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About Me</h2>
+    <hr class="w3-opacity">
+    <p>Hi, I am Preeti Bhattacharya, I am Pursuing my <b>Master's degree in Computer and Information Science</b> at George Mason University Fairfax, VA, USA.</p>
+    <p>I am a passionate Software Engineer with a keen eye for problem-solving and attention to detail. 
+      My work experience and projects have taught me collaboration and collective growth.</p>
+      <p>I'm currently working as a <b>Full-Stack Software Enginner Intern at Sapcee</b> in Texas, USA.</p>
+      <p>Previously I was working with Cerence, Atos-Syntel and Amazon.</p>
+      <p>I completed my <b>Bachelor’s of Engineering in Computer Science and Engineering</b> from Chhattisghar Swami Vivekananda Technical University 
+        with a GPA of 8.8/10 where I learned Java, C++, C, Data structure, Algorithms, and SQL. I also conducted seminars and knowledge transfer sessions.</p>
+      <p>I enjoy developing software solutions that help solve challenging real-world problems. 
+        My passion for this space is what motivates me to continuously learn and develop my skill set.</p>
+    <p>In my free time, I love to sketch cartoons or go trekking.
+    </p>
+    <h3 class="w3-padding-16">My Skills</h3>
+    <p class="w3-wide">Java</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-teal" style="width:90%">90%</div>
+    </div>
+    <p class="w3-wide">Python</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-teal" style="width:70%">70%</div>
+    </div>
+	<p class="w3-wide">C</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-teal" style="width:80%">80%</div>
+    </div>
+	<p class="w3-wide">C++</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-teal" style="width:70%">70%</div>
+    </div>
+	<p class="w3-wide">SQL</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-teal" style="width:50%">50%</div>
+    </div>
+	<p class="w3-wide">JavaScript</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-teal" style="width:60%">60%</div>
+    </div>
+	<p class="w3-wide">HTML/CSS</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-teal" style="width:85%">85%</div>
+    </div>
+	<p class="w3-wide">Selenium</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-teal" style="width:89%">89%</div>
+    </div>
+    <p class="w3-wide">Shell Programming</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-teal" style="width:70%">70%</div>
+    </div><br>
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24">Work Experience</h3>
+    <a href="https://www.spacee.com/">
+    <img src="https://preetiportfolio.w3spaces.com/spaceee.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"></a>
+    <p><span class="w3-large w3-text-black w3-margin-right">Spacee</span> Full-Stack Software Engineer Intern </p>
+    <br>
+    
+    
+    <ul class=" w3-centre-align"style="w3-padding-large">
+      <li class="w3-padding-15">Learned new Cloud technologies and work on JavaScript and Python.</li>
+      <li class="w3-padding-15">Worked on both the back-end and front-end of systems and catered to both user experience and functionality in projects.</li>
+      <li class="w3-padding-15">Wrote clean, functional code on the front and back-end and assisted in the design and creation of scalable software.</li>
+      <li class="w3-padding-15">Tested and fixed bugs or other coding issues and ensured responsiveness and efficiency.</li>
+    
+    </ul>
+    <br>
+    
+    <a href="https://www.cerence.com/">
+    <img src="https://preetiportfolio.w3spaces.com/cerence.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"></a>
+    <p><span class="w3-large w3-text-black w3-margin-right">Cerence</span> Software Quality Assurance Analyst</p>
+    <br>
+    <ul class=" w3-centre-align"style="w3-padding-large">
+      <li class="w3-padding-15">Contributed to a 25% improvement in existing speech utterances using NLU mapping and automated 75% tasks using Python.</li>
+      <li class="w3-padding-15">Added commands in ASR for different countries using NLU and tested with ARTT to check its country-specific replying, which resulted in an increase of 80\% accuracy.
+         The code was maintained in GIT and the progress was tracked through Jira.</li>
+      <li class="w3-padding-15">Requirement analysis, testing, implementation, and validation of embedded speech systems for all Volkswagen automakers.</li>
+      <li class="w3-padding-15">Heavily involved in task/defect management and resolution in Jira and preparing software deliveries for customers.</li>
+    </ul>
+    <br>
+   
+    <a href="https://atos.net/en/">
+    <img src="https://preetiportfolio.w3spaces.com/atos-syntel.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"></a>
+    <p><span class="w3-large w3-text-black w3-margin-right">Atos-Syntel</span> Associate Consultant-2</p>
+    <br>
+    <ul class=" w3-centre-align"style="w3-padding-large">
+      <li class="w3-padding-15"><u>Enterprise Notification System</u>: Developed and tested automated emails through the AEM tool and maintained it in SVN and its data using Oracle SQL Developer. 
+        While leading a team of 4 in an agile environment for a Data-Driven framework.</li>
+      <li class="w3-padding-15">Worked in 3 modules for thousands of users worldwide using Java, Selenium, and TestNG.</li>
+      <li class="w3-padding-15">Created a pipeline in Jenkins to reduce 30% redundant tasks and performed problem resolution with root cause analysis.</li>
+      <li class="w3-padding-15">Performed database validation in Oracle SQL Developer to increase the accuracy of data by 25%.</li>
+      <li class="w3-padding-15">Actively contributed to daily stand-ups, demos, retrospectives, refinements, Go/No-Go, sprint, and PI plannings.</li>
+      <li class="w3-padding-15"><u>Pricing in FedEx</u>:  We utilized JavaScript, Cucumber, and Protractor to design and test a FedEx GUI to generate pricing and agreements of clients, for various countries.</li>
+        <li class="w3-padding-15">Utilized Version One to maintain and track progress in an agile environment. Also mapped API, using
+          Postman for Behavioural-Driven framework.</li> 
+      
+    </ul>
+    <br>
+    
+    <a href="https://www.aboutamazon.com/">
+    <img src="https://preetiportfolio.w3spaces.com/amazon.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"></a>
+    <p><span class="w3-large w3-text-black w3-margin-right">Amazon</span> CS Associate</p>
+    <br>
+    <ul class=" w3-centre-align"style="w3-padding-large">
+      <li class="w3-padding-15">Preventing and solving problems for around 100 customers per week.</li>
+      <li class="w3-padding-15">Monitor customer satisfaction levels and develop methods for increasing them.</li>
+    </ul>
+    <br>
+        
+    <!-- Grid for education -->
+    <h3 class="w3-padding-16">My Education</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-teal w3-xlarge w3-padding-32">Bachelor's of Engineering</li>
+          <li class="w3-padding-16">CSVTU</li>
+          <li class="w3-padding-16">Major: Computer Science and Engineering</li>
+          <li class="w3-padding-16">GPA: 8.8/10</li>
+          <li class="w3-padding-16">Raipur, CG, India</li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-teal w3-xlarge w3-padding-32">Master's of Science</li>
+          <li class="w3-padding-16">George Mason University</li>
+          <li class="w3-padding-16">Major: Computer and Information Science</li>
+          <li class="w3-padding-16">GPA: 3.6/4</li>
+          <li class="w3-padding-16">Fairfax, VA, USA</li>
+        </ul>
+      </div>
+    <!-- End education tables -->
+    </div>
+    
+  <!-- End About Section -->
+  </div>
+
+ <!-- Portfolio Section -->
+ 
+   <div class="w3-padding-32 w3-content w3-text-grey" id="Project">
+    <h2 class="w3-text-grey">My Projects</h2>
+    <hr class="w3-opacity">
+    <p>You will be happy to know that I have completed over 10+ projects successfully!</p>
+    <!-- Grid for photos -->
+     <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <a href="https://github.com/Preeb34/Auditing-for-Bias-in-ProPublica-COMPASS-dataset"><img src="https://preetiportfolio.w3spaces.com/compass.png" style="width:100%"></a>
+        <a href="https://github.com/Preeb34/Application-to-take-a-survey"><img src="https://preetiportfolio.w3spaces.com/surveynew.png" style="height:400%;width:100%"></a>
+        <a href="https://github.com/Preeb34/Baby-product-analysis"><img src="https://preetiportfolio.w3spaces.com/baby1.png" style="width:100%"></a>
+      </div>
+
+      <div class="w3-half">
+        <a href="https://github.com/Preeb34/Heart-Attack-Analysis"><img src="https://preetiportfolio.w3spaces.com/heart_attack.png" style="width:100%"></a>
+       <a href="https://github.com/Preeb34/Data-Analysis-of-IRIS-data"><img src="https://preetiportfolio.w3spaces.com/iris.png" style="width:100%"></a>
+        <a href="https://github.com/Preeb34/Bias-in-Machine-Learning"><img src="https://preetiportfolio.w3spaces.com/mlbias.png" style="width:100%"></a>
+        
+      </div>
+    <!-- End photo grid -->
+    </div> 
+
+     <div class="w3-row w3-center w3-teal w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">4+</span> <span class="w3-small">years</span><br>
+        Work Experience
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">12</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">7</span><br>
+        Awards Achieved
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">50+</span><br>
+        Extra curicular Activities
+      </div>
+    </div> 
+
+
+  <!-- End Portfolio Section -->
+  </div> 
+  
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Connect with me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Virginia, US</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: pbhatta2@gmu.edu <a href="mailto:pbhatta2@gmu.edu"></a></p>
+	  
+    </div>
+    <br>
+    <p>Lets get in touch or simply say hello, don't hesitate to send me a message:</p>
+    <form action="https://formsubmit.co/ec0b400142e9f49e8d5416c18de49474" method="POST">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+		  <a href="mailto:pbhatta2@gmu.edu"></a>
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer. -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <a class="fa fa-linkedin w3-hover-opacity" a href="https://www.linkedin.com/in/Preeb/"></a>
+    <a class="fa fa-github w3-hover-opacity" a href="https://github.com/Preeb34/"></a>
+	<a class="fa fa-instagram w3-hover-opacity" a href="https://www.instagram.com/preeb3495/"></a>
+    <a class="fa fa-envelope w3-hover-opacity" a href="mailto:pbhatta2@gmu.edu"></a>
+    <a class="fa fa-twitter w3-hover-opacity" a href="https://twitter.com/Preeb3495/"></a>
+	<a class="fa fa-facebook-official w3-hover-opacity" a href="https://www.facebook.com/preeti.bhattacharya.77/"></a>
+  <p style="font-size: 15px"> If you like my work and efforts, you may even consider buying me a coffee & help me study better. <br>
+    Thank you for your support!</p>
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="preeb" data-description="Support me on Buy me a coffee!" data-message="" data-color="#26B0A1" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+    <!-- End footer -->
+  </footer>
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
